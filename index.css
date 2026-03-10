@@ -1,0 +1,23 @@
+/* Minimal index.css criado automaticamente para evitar 404 e prover estilos base */
+:root{
+  --brand-black: #0A0A0A;
+  --brand-orange: #FF5A1F;
+  --text: #f8fafc;
+}
+html,body,#root{height:100%;}
+html{box-sizing:border-box}
+*,*::before,*::after{box-sizing:inherit}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color:var(--brand-black);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+a{color:var(--brand-orange);text-decoration:none}
+img{max-width:100%;height:auto;display:block}
+/* utility to hide the custom cursor on small devices */
+@media (hover:none) and (pointer:coarse) {
+  .custom-cursor { display: none !important; }
+}

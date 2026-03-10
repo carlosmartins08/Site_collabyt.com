@@ -1,0 +1,16 @@
+
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running lint-staged (fast checks) before push..."
+
+# Run lint-staged to check staged files quickly; heavier typecheck runs in CI
+npx --no -- lint-staged
+
+EXIT_CODE=$?
+if [ $EXIT_CODE -ne 0 ]; then
+  echo "Pre-push checks failed (lint-staged). Aborting push."
+  exit $EXIT_CODE
+fi
+
+echo "Pre-push quick checks passed. Proceeding with push."
