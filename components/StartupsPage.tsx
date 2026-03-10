@@ -32,83 +32,83 @@ const content = {
   'pt-br': {
     title: 'Startups | Collaby.t',
     description:
-      'Arquitetura de conteudo e SEO para startups que precisam de tracao, clareza de posicionamento e demanda qualificada.',
+      'Arquitetura de Conteúdo e SEO para startups que precisam de tração, clareza de posicionamento e demanda qualificada.',
     hero: {
-      eyebrow: 'Conteudo e SEO para Startups',
-      heading: 'Startups: MVP, IA aplicada e crescimento com foco em tracao',
+      eyebrow: 'Conteúdo e SEO para Startups',
+      heading: 'Startups: MVP, IA aplicada e crescimento com foco em tração',
       subheading:
-        'Transformamos sua pagina principal em um ecossistema de conteudo que gera demanda, prova autoridade e acelera validacao.',
+        'Transformamos sua página principal em um ecossistema de Conteúdo que gera demanda, prova autoridade e acelera validação.',
       ctaPrimary: 'Falar com especialista',
-      ctaSecondary: 'Ver solucoes',
+      ctaSecondary: 'Ver soluções',
     },
     painPoints: {
       title: 'O que trava a descoberta de startups',
       items: [
         {
           title: 'Baixa clareza de proposta',
-          description: 'O publico nao entende rapido o que voce resolve.',
+          description: 'O público não entende rapido o que você resolve.',
         },
         {
-          title: 'Falta de paginas por intencao',
-          description: 'Tudo esta em uma pagina e o Google nao sabe ranquear.',
+          title: 'Falta de páginas por intenção',
+          description: 'Tudo esta em uma página e o Google não sabe ranquear.',
         },
         {
           title: 'Pouca prova de capacidade',
-          description: 'Sem cases e dados, a confianca nao escala.',
+          description: 'Sem cases e dados, a confiança não escala.',
         },
       ],
     },
     personas: {
       title: 'Personas alvo',
       items: [
-        'Fundador em pre-seed buscando validacao',
-        'Product lead comparando parceiros tecnicos',
+        'Fundador em pré-seed buscando validação',
+        'Product lead comparando parceiros técnicos',
         'CTO avaliando arquitetura e time',
-        'Investidor analisando sinais de tracao',
+        'Investidor analisando sinais de tração',
       ],
     },
     intents: {
-      title: 'Intencoes de busca',
+      title: 'intenções de busca',
       items: [
         'informacional: como validar MVP',
-        'comparativa: melhor parceiro tecnico para startup',
+        'comparativa: melhor parceiro técnico para startup',
         'comercial: consultoria de MVP e IA aplicada',
         'transacional: contratar equipe para construir MVP',
       ],
     },
     methodology: {
-      title: 'Metodo em 8 etapas para gerar tracao organica',
+      title: 'Método em 8 etapas para gerar tração orgânica',
       steps: [
-        'Interpretacao do negocio e diferenciais',
+        'Interpretação do negocio e diferenciais',
         'Mapeamento de personas e maturidade',
-        'Levantamento de intencoes de busca',
-        'Definicao de clusters de conteudo',
-        'Criacao de paginas complementares',
-        'Estrategia de hiperlinks internos',
-        'Coerencia narrativa e semantica',
-        'Otimizacao para motores de IA',
+        'Levantamento de intenções de busca',
+        'Definição de clusters de Conteúdo',
+        'Criação de páginas complementares',
+        'Estratégia de hiperlinks internos',
+        'Coerência narrativa e semântica',
+        'Otimização para motores de IA',
       ],
     },
     deliverables: {
-      title: 'Entregaveis para startups',
+      title: 'Entregáveis para startups',
       items: [
-        'Mapa de clusters e paginas prioritarias',
-        'Wireframe e copy orientados a conversao',
-        'SEO tecnico + schema por pagina',
-        'Plano de expansao de conteudo',
+        'Mapa de clusters e páginas prioritarias',
+        'Wireframe e copy orientados a conversão',
+        'SEO técnico + schema por página',
+        'Plano de expansão de Conteúdo',
       ],
     },
     clusters: {
       title: 'Clusters recomendados para Startups',
       items: [
         {
-          title: 'MVP e validacao rapida',
-          description: 'Paginas que respondem a busca por MVP e testes de mercado.',
+          title: 'MVP e validação rápida',
+          description: 'páginas que respondem a busca por MVP e testes de mercado.',
           key: 'solutions',
         },
         {
-          title: 'IA aplicada e automacao',
-          description: 'Casos de uso claros e resultados mensuraveis.',
+          title: 'IA aplicada e automação',
+          description: 'Casos de uso claros e resultados mensuráveis.',
           key: 'tech',
         },
         {
@@ -118,7 +118,7 @@ const content = {
         },
         {
           title: 'Cases e provas',
-          description: 'Resultados reais para construir confianca.',
+          description: 'Resultados reais para construir confiança.',
           key: 'projects',
         },
       ],
@@ -128,22 +128,22 @@ const content = {
       items: [
         {
           q: 'Em quanto tempo esse plano gera impacto?',
-          a: 'Normalmente entre 4 e 8 semanas para indexacao e sinais iniciais.',
+          a: 'Normalmente entre 4 e 8 semanas para indexação e sinais iniciais.',
         },
         {
-          q: 'Preciso criar varias paginas de uma vez?',
-          a: 'Nao. Priorizamos as paginas com maior impacto e expandimos por ciclos.',
+          q: 'Preciso criar várias páginas de uma vez?',
+          a: 'não. Priorizamos as páginas com maior impacto e expandimos por ciclos.',
         },
         {
-          q: 'Isso substitui anuncios pagos?',
-          a: 'Nao. Complementa e reduz custo por lead ao longo do tempo.',
+          q: 'Isso substitui anúncios pagos?',
+          a: 'não. Complementa e reduz custo por lead ao longo do tempo.',
         },
       ],
     },
     cta: {
       title: 'Vamos destravar a descoberta da sua startup',
-      text: 'Receba um diagnostico de cluster, paginas prioritarias e plano de execucao.',
-      button: 'Agendar diagnostico',
+      text: 'Receba um diagnóstico de cluster, páginas prioritarias e plano de execução.',
+      button: 'Agendar diagnóstico',
     },
   },
   en: {
@@ -178,7 +178,7 @@ const content = {
     personas: {
       title: 'Target personas',
       items: [
-        'Founder in pre-seed looking for validation',
+        'Founder in pré-seed looking for validation',
         'Product lead comparing technical partners',
         'CTO evaluating architecture and team',
         'Investor scanning traction signals',
@@ -293,7 +293,7 @@ const StartupsPage: React.FC<StartupsPageProps> = ({ locale }) => {
         '@type': 'Service',
         serviceType:
           locale === 'pt-br'
-            ? 'Arquitetura de conteudo e SEO para startups'
+            ? 'Arquitetura de Conteúdo e SEO para startups'
             : 'Content architecture and SEO for startups',
         provider: {
           '@type': 'Organization',
@@ -308,7 +308,7 @@ const StartupsPage: React.FC<StartupsPageProps> = ({ locale }) => {
           {
             '@type': 'ListItem',
             position: 1,
-            name: locale === 'pt-br' ? 'Inicio' : 'Home',
+            name: locale === 'pt-br' ? 'Início' : 'Home',
             item: canonicalFromPath(`/${locale}`),
           },
           {
@@ -544,3 +544,5 @@ const StartupsPage: React.FC<StartupsPageProps> = ({ locale }) => {
 };
 
 export default StartupsPage;
+
+

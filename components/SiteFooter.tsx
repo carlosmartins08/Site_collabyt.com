@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import { Activity, Linkedin, Instagram, Github, Mail, MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -125,7 +125,7 @@ const SiteFooter: React.FC<SiteFooterProps> = ({ locale, contactPath }) => {
                     to={healthcarePath}
                     className="hover:text-brandOrange hover:translate-x-1 transition-all duration-300 text-left"
                   >
-                    {locale === 'pt-br' ? 'Hospitais e Consultorios' : 'Healthcare'}
+                    {locale === 'pt-br' ? 'Hospitais e Consultórios' : 'Healthcare'}
                   </Link>
                 </li>
                 <li>
@@ -226,7 +226,7 @@ const SiteFooter: React.FC<SiteFooterProps> = ({ locale, contactPath }) => {
                   <div className="flex items-start gap-2">
                     <MapPin size={16} className="text-brandOrange mt-1 shrink-0" />
                     <span className="text-sm leading-snug">
-                      JoÃ£o Pessoa, PB <br />
+                      João Pessoa, PB <br />
                       <span className="text-xs text-slate-500">R Cassimiro de Abreu, 56</span>
                     </span>
                   </div>
@@ -238,7 +238,7 @@ const SiteFooter: React.FC<SiteFooterProps> = ({ locale, contactPath }) => {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-600">
           <p>
-            Â© {new Date().getFullYear()} Collaby.t Innovation Studio.{' '}
+            © {new Date().getFullYear()} Collaby.t Innovation Studio.{' '}
             {t('footer.rights') as string}
           </p>
           <p className="flex items-center gap-1">{t('footer.made') as string}</p>
@@ -249,3 +249,4 @@ const SiteFooter: React.FC<SiteFooterProps> = ({ locale, contactPath }) => {
 };
 
 export default SiteFooter;
+

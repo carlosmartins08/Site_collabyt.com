@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Linkedin, ExternalLink, Rocket, Palette, Terminal, Cpu } from 'lucide-react';
 import { Reveal } from './Reveal';
 import { useLanguage } from '../LanguageContext';
@@ -82,7 +82,7 @@ const About: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-brandOrange/20 via-transparent to-brandAmber/5 mix-blend-overlay z-10 opacity-60 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <img 
                   src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80" 
-                  alt="Equipe de tecnologia da Collaby.t trabalhando em um projeto de software em um escritÃ³rio moderno" 
+                  alt="Equipe de tecnologia da Collaby.t trabalhando em um projeto de software em um escrit�rio moderno" 
                   width="800"
                   height="600"
                   className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700 transform group-hover:scale-105"
@@ -103,7 +103,7 @@ const About: React.FC = () => {
         {/* New Premium Team Section */}
         <div id="about-team" className="border-t border-white/10 pt-24 relative">
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 bg-brandBlack flex items-center justify-center rounded-full border border-white/5 shadow-2xl z-20">
-                <span className="text-3xl animate-pulse">âš¡</span>
+                <span className="text-3xl animate-pulse">?</span>
             </div>
 
             <div className="text-center mb-16">
@@ -218,4 +218,5 @@ const About: React.FC = () => {
 };
 
 export default About;
+
 

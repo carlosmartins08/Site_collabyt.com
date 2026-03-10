@@ -56,11 +56,11 @@ const Solutions: React.FC<SolutionsProps> = ({
 }) => {
   const { t, language } = useLanguage();
   const startupsCtaLabel =
-    language === 'pt' ? 'Ver pagina completa para startups' : 'View the full startups page';
+    language === 'pt' ? 'Ver página completa para startups' : 'View the full startups page';
   const industriesCtaLabel =
-    language === 'pt' ? 'Ver pagina completa para industrias' : 'View the full industries page';
+    language === 'pt' ? 'Ver página completa para industrias' : 'View the full industries page';
   const retailCtaLabel =
-    language === 'pt' ? 'Ver pagina completa para varejo' : 'View the full retail page';
+    language === 'pt' ? 'Ver página completa para varejo' : 'View the full retail page';
   
   const solutions: SolutionTab[] = [
     {
@@ -292,3 +292,4 @@ const Solutions: React.FC<SolutionsProps> = ({
 };
 
 export default Solutions;
+

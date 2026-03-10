@@ -32,29 +32,29 @@ const content = {
   'pt-br': {
     title: 'Tech | Collaby.t',
     description:
-      'Arquitetura de conteudo e SEO para tecnologia, com foco em stack moderno, IA aplicada e confiabilidade.',
+      'Arquitetura de Conteúdo e SEO para tecnologia, com foco em stack moderno, IA aplicada e confiabilidade.',
     hero: {
       eyebrow: 'Tech Lab',
       heading: 'Tech: arquitetura, IA aplicada e stack moderno',
       subheading:
-        'Estruturamos conteudo tecnico para provar capacidade, acelerar decisao e gerar demanda qualificada.',
+        'Estruturamos Conteúdo técnico para provar capacidade, acelerar decisão e gerar demanda qualificada.',
       ctaPrimary: 'Falar com especialista',
-      ctaSecondary: 'Ver solucoes',
+      ctaSecondary: 'Ver soluções',
     },
     painPoints: {
-      title: 'Principais desafios de descoberta tecnica',
+      title: 'Principais desafios de descoberta técnica',
       items: [
         {
           title: 'Arquitetura pouco explicita',
-          description: 'O mercado nao entende a robustez da solucao.',
+          description: 'O mercado não entende a robustez da solução.',
         },
         {
-          title: 'Baixa prova tecnica',
+          title: 'Baixa prova técnica',
           description: 'Faltam dados e benchmarks de performance.',
         },
         {
-          title: 'Conteudo sem foco em decisor tecnico',
-          description: 'Nao responde as perguntas de CTO e TI.',
+          title: 'Conteúdo sem foco em decisor técnico',
+          description: 'não responde as perguntas de CTO e TI.',
         },
       ],
     },
@@ -62,40 +62,40 @@ const content = {
       title: 'Personas alvo',
       items: [
         'CTO avaliando arquitetura e escalabilidade',
-        'Engenharia validando stack e integracoes',
-        'Product lead buscando time tecnico confiavel',
+        'Engenharia validando stack e integrações',
+        'Product lead buscando time técnico confiável',
         'Compras comparando fornecedores de tecnologia',
       ],
     },
     intents: {
-      title: 'Intencoes de busca',
+      title: 'intenções de busca',
       items: [
         'informacional: como escolher stack para produto',
-        'comparativa: melhor parceiro tecnico para IA',
+        'comparativa: melhor parceiro técnico para IA',
         'comercial: desenvolvimento com IA e cloud',
-        'transacional: contratar time para build e escalacao',
+        'transacional: contratar time para build e escalação',
       ],
     },
     methodology: {
-      title: 'Metodo em 8 etapas para autoridade tecnica',
+      title: 'Método em 8 etapas para autoridade técnica',
       steps: [
-        'Diagnostico da stack e objetivos do produto',
-        'Mapeamento de personas tecnicas',
-        'Pesquisa de intencoes e termos de engenharia',
+        'Diagnóstico da stack e objetivos do produto',
+        'Mapeamento de personas técnicas',
+        'Pesquisa de intenções e termos de engenharia',
         'Clusters por tecnologia e uso',
-        'Paginas por solucao e benchmark',
-        'Interligacao com cases e metricas',
-        'SEO tecnico e padronizacao semantica',
-        'Otimizacao para motores de IA',
+        'Páginas por solução e benchmark',
+        'Interligação com cases e métricas',
+        'SEO técnico e padronização semântica',
+        'Otimização para motores de IA',
       ],
     },
     deliverables: {
-      title: 'Entregaveis para Tech',
+      title: 'Entregáveis para Tech',
       items: [
-        'Mapa de conteudo por tecnologia',
-        'Paginas de arquitetura e benchmarks',
-        'Schema e SEO tecnico por pagina',
-        'Plano de expansao por stack e produto',
+        'Mapa de Conteúdo por tecnologia',
+        'Páginas de arquitetura e benchmarks',
+        'Schema e SEO técnico por página',
+        'Plano de expansão por stack e produto',
       ],
     },
     clusters: {
@@ -103,22 +103,22 @@ const content = {
       items: [
         {
           title: 'Arquitetura e escalabilidade',
-          description: 'Stack, performance e resiliencia.',
+          description: 'Stack, performance e resiliência.',
           key: 'solutions',
         },
         {
           title: 'IA aplicada e dados',
-          description: 'Modelos, pipelines e governanca.',
+          description: 'Modelos, pipelines e governança.',
           key: 'tech',
         },
         {
-          title: 'Metodo e entrega',
+          title: 'Método e entrega',
           description: 'Processo, qualidade e confiabilidade.',
           key: 'methodology',
         },
         {
-          title: 'Cases tecnicos',
-          description: 'Resultados e provas de execucao.',
+          title: 'Cases técnicos',
+          description: 'Resultados e provas de execução.',
           key: 'projects',
         },
       ],
@@ -128,22 +128,22 @@ const content = {
       items: [
         {
           q: 'Esse plano ajuda a explicar a arquitetura?',
-          a: 'Sim. Criamos paginas e provas tecnicas por stack.',
+          a: 'Sim. Criamos Páginas e provas técnicas por stack.',
         },
         {
-          q: 'Como voce trata seguranca e compliance?',
-          a: 'Incluimos conteudo tecnico e governanca no cluster.',
+          q: 'Como você trata segurança e compliance?',
+          a: 'Incluimos Conteúdo técnico e governança no cluster.',
         },
         {
-          q: 'Precisa de documentacao existente?',
-          a: 'Nao. Produzimos do zero com o time.',
+          q: 'Precisa de documentação existente?',
+          a: 'não. Produzimos do zero com o time.',
         },
       ],
     },
     cta: {
-      title: 'Vamos estruturar sua autoridade tecnica',
-      text: 'Receba um plano de conteudo e SEO focado em decisores tecnicos.',
-      button: 'Agendar diagnostico',
+      title: 'Vamos estruturar sua autoridade técnica',
+      text: 'Receba um plano de Conteúdo e SEO focado em decisores técnicos.',
+      button: 'Agendar Diagnóstico',
     },
   },
   en: {
@@ -308,7 +308,7 @@ const TechLabPage: React.FC<TechLabPageProps> = ({ locale }) => {
           {
             '@type': 'ListItem',
             position: 1,
-            name: locale === 'pt-br' ? 'Inicio' : 'Home',
+            name: locale === 'pt-br' ? 'Início' : 'Home',
             item: canonicalFromPath(`/${locale}`),
           },
           {
@@ -544,3 +544,8 @@ const TechLabPage: React.FC<TechLabPageProps> = ({ locale }) => {
 };
 
 export default TechLabPage;
+
+
+
+
+

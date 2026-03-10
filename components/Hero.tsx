@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick, scrollToProjects, projectsHref 
   return (
     <section
       className="relative w-full min-h-screen bg-brandBlack overflow-hidden flex flex-col justify-center pt-24 pb-12"
-      aria-label="IntroduÃ§Ã£o Collaby.t"
+      aria-label="Introdução Collaby.t"
     >
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-grid-pattern opacity-[0.05] bg-grid"></div>
@@ -81,7 +81,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick, scrollToProjects, projectsHref 
         >
           <button
             onClick={onCtaClick}
-            aria-label="Solicitar um diagnÃ³stico gratuito do seu projeto"
+            aria-label="Solicitar um diagnóstico gratuito do seu projeto"
             className="group bg-brandOrange hover:bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-bold transition-all shadow-[0_0_20px_rgba(255,90,31,0.3)] hover:shadow-[0_0_30px_rgba(255,90,31,0.5)] hover:scale-105 flex items-center gap-2"
           >
             {t('hero.cta_diagnosis') as string}
@@ -90,7 +90,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick, scrollToProjects, projectsHref 
           <Link
             to={projectsHref}
             onClick={() => scrollToProjects()}
-            aria-label="Ver nosso portfÃ³lio de soluÃ§Ãµes"
+            aria-label="Ver nosso portfólio de soluções"
             className="group flex items-center gap-3 px-8 py-4 rounded-full text-white border border-slate-700 hover:border-white hover:bg-white/5 transition-all"
           >
             <PlayCircle className="w-6 h-6 text-slate-400 group-hover:text-white transition-colors" />
@@ -118,4 +118,5 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick, scrollToProjects, projectsHref 
 };
 
 export default Hero;
+
 

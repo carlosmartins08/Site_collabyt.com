@@ -30,30 +30,30 @@ type IndustriesPageProps = {
 
 const content = {
   'pt-br': {
-    title: 'Industrias | Collaby.t',
+    title: 'Indústrias | Collaby.t',
     description:
-      'Arquitetura de conteudo e SEO para industrias que buscam produtividade, automacao e transformacao digital com previsibilidade.',
+      'Arquitetura de Conteúdo e SEO para Indústrias que buscam produtividade, automação e transformação digital com previsibilidade.',
     hero: {
-      eyebrow: 'Conteudo e SEO para Industrias',
-      heading: 'Industrias: transformacao digital e eficiencia operacional',
+      eyebrow: 'Conteúdo e SEO para Indústrias',
+      heading: 'Indústrias: transformação digital e eficiência operacional',
       subheading:
-        'Construimos um ecossistema de conteudo que prova capacidade tecnica, reduz risco e gera demanda qualificada.',
+        'Construimos um ecossistema de Conteúdo que prova capacidade tecnica, reduz risco e gera demanda qualificada.',
       ctaPrimary: 'Falar com especialista',
-      ctaSecondary: 'Ver solucoes',
+      ctaSecondary: 'Ver soluções',
     },
     painPoints: {
       title: 'Principais desafios de descoberta industrial',
       items: [
         {
           title: 'Processos legacy pouco claros',
-          description: 'O mercado nao entende a evolucao da operacao nem o impacto.',
+          description: 'O mercado não entende a evolucao da operação nem o impacto.',
         },
         {
           title: 'Baixa visibilidade de ganhos',
-          description: 'Sem indicadores e casos, a confianca nao se estabelece.',
+          description: 'Sem indicadores e casos, a confiança não se estabelece.',
         },
         {
-          title: 'Conteudo tecnico disperso',
+          title: 'Conteúdo técnico disperso',
           description: 'Falta uma narrativa que conecte tecnologia a resultado.',
         },
       ],
@@ -61,49 +61,49 @@ const content = {
     personas: {
       title: 'Personas alvo',
       items: [
-        'Diretor industrial buscando eficiencia e custo menor',
-        'Gerente de operacoes avaliando automacao',
-        'CTO ou TI validando arquitetura e seguranca',
+        'Diretor industrial buscando eficiência e custo menor',
+        'Gerente de operações avaliando automação',
+        'CTO ou TI validando arquitetura e segurança',
         'Compras comparando fornecedores de tecnologia',
       ],
     },
     intents: {
-      title: 'Intencoes de busca',
+      title: 'Intenções de busca',
       items: [
-        'informacional: industria 4.0 na pratica',
-        'comparativa: parceiro de transformacao digital',
-        'comercial: automacao industrial e IA aplicada',
-        'transacional: contratar integrador e time tecnico',
+        'informacional: indústria 4.0 na pratica',
+        'comparativa: parceiro de transformação digital',
+        'comercial: automação industrial e IA aplicada',
+        'transacional: contratar integrador e time técnico',
       ],
     },
     methodology: {
-      title: 'Metodo em 8 etapas para gerar autoridade industrial',
+      title: 'Método em 8 etapas para gerar autoridade industrial',
       steps: [
-        'Diagnostico do negocio e objetivos operacionais',
+        'Diagnóstico do negocio e objetivos operacionais',
         'Mapeamento de personas e jornada de compra',
-        'Pesquisa de intencoes e termos setoriais',
-        'Definicao de clusters por linha de producao',
-        'Paginas por solucao e por dor critica',
-        'Interligacao com cases e resultados',
-        'Padronizacao semantica e SEO tecnico',
-        'Otimizacao para motores de IA',
+        'Pesquisa de Intenções e termos setoriais',
+        'Definição de clusters por linha de produção',
+        'Páginas por solução e por dor critica',
+        'Interligação com cases e resultados',
+        'Padronização semântica e SEO técnico',
+        'Otimização para motores de IA',
       ],
     },
     deliverables: {
-      title: 'Entregaveis para industrias',
+      title: 'Entregáveis para Indústrias',
       items: [
-        'Mapa de conteudo por area industrial',
-        'Pilares de solucao com provas tecnicas',
-        'Schema e SEO tecnico por pagina',
-        'Plano de expansao por setor e planta',
+        'Mapa de Conteúdo por área industrial',
+        'Pilares de solução com provas tecnicas',
+        'Schema e SEO técnico por página',
+        'Plano de expansão por setor e planta',
       ],
     },
     clusters: {
-      title: 'Clusters recomendados para Industrias',
+      title: 'Clusters recomendados para Indústrias',
       items: [
         {
-          title: 'Automacao e controle',
-          description: 'Conteudo para ganhos de produtividade e reducao de falhas.',
+          title: 'automação e controle',
+          description: 'Conteúdo para ganhos de produtividade e reducao de falhas.',
           key: 'solutions',
         },
         {
@@ -112,8 +112,8 @@ const content = {
           key: 'tech',
         },
         {
-          title: 'Metodo e governanca',
-          description: 'Processo, compliance e seguranca.',
+          title: 'Método e governança',
+          description: 'Processo, compliance e segurança.',
           key: 'methodology',
         },
         {
@@ -127,23 +127,23 @@ const content = {
       title: 'Perguntas frequentes',
       items: [
         {
-          q: 'Qual o primeiro passo para a industria?',
-          a: 'Comecamos com diagnostico da operacao e metas de negocio.',
+          q: 'Qual o primeiro passo para a indústria?',
+          a: 'Começamos com Diagnóstico da operação e metas de negocio.',
         },
         {
           q: 'Quanto tempo leva para ver resultado?',
-          a: 'Normalmente 6 a 10 semanas para sinais iniciais de tracao.',
+          a: 'Normalmente 6 a 10 semanas para sinais iniciais de tração.',
         },
         {
-          q: 'Precisa parar a operacao?',
-          a: 'Nao. O plano e pensado para evolucao gradual e segura.',
+          q: 'Precisa parar a operação?',
+          a: 'não. O plano e pensado para evolucao gradual e segura.',
         },
       ],
     },
     cta: {
-      title: 'Vamos estruturar a descoberta da sua industria',
-      text: 'Receba um plano de conteudo e SEO alinhado aos objetivos de eficiencia.',
-      button: 'Agendar diagnostico',
+      title: 'Vamos estruturar a descoberta da sua indústria',
+      text: 'Receba um plano de Conteúdo e SEO alinhado aos objetivos de eficiência.',
+      button: 'Agendar Diagnóstico',
     },
   },
   en: {
@@ -209,7 +209,7 @@ const content = {
     deliverables: {
       title: 'Industry deliverables',
       items: [
-        'Content map by industrial area',
+        'Content map by industrial área',
         'Solution pillars with technical proof',
         'Schema and technical SEO per page',
         'Expansion roadmap by sector and plant',
@@ -293,7 +293,7 @@ const IndustriesPage: React.FC<IndustriesPageProps> = ({ locale }) => {
         '@type': 'Service',
         serviceType:
           locale === 'pt-br'
-            ? 'Transformacao digital e Industria 4.0'
+            ? 'transformação digital e indústria 4.0'
             : 'Digital transformation and Industry 4.0',
         provider: {
           '@type': 'Organization',
@@ -308,13 +308,13 @@ const IndustriesPage: React.FC<IndustriesPageProps> = ({ locale }) => {
           {
             '@type': 'ListItem',
             position: 1,
-            name: locale === 'pt-br' ? 'Inicio' : 'Home',
+            name: locale === 'pt-br' ? 'Início' : 'Home',
             item: canonicalFromPath(`/${locale}`),
           },
           {
             '@type': 'ListItem',
             position: 2,
-            name: 'Industrias',
+            name: 'Indústrias',
             item: canonical,
           },
         ],
@@ -544,3 +544,5 @@ const IndustriesPage: React.FC<IndustriesPageProps> = ({ locale }) => {
 };
 
 export default IndustriesPage;
+
+

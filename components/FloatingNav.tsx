@@ -256,7 +256,7 @@ const FloatingNav: React.FC<FloatingNavProps> = ({
                 variants={itemVariants}
                 className="text-slate-500 font-mono text-xs uppercase tracking-widest mb-4"
               >
-                NavegaÃ§Ã£o
+                Navegação
               </motion.span>
 
               {navItems.map((item) => {
@@ -330,7 +330,7 @@ const FloatingNav: React.FC<FloatingNavProps> = ({
             </div>
 
             <motion.div variants={itemVariants} className="mt-auto pt-8 text-center">
-              <p className="text-slate-600 text-sm">Â© {new Date().getFullYear()} Collaby.t Innovation</p>
+              <p className="text-slate-600 text-sm">© {new Date().getFullYear()} Collaby.t Innovation</p>
             </motion.div>
           </motion.div>
         ) : null}
@@ -340,4 +340,5 @@ const FloatingNav: React.FC<FloatingNavProps> = ({
 };
 
 export default FloatingNav;
+
 

@@ -1,4 +1,4 @@
-﻿import React, { Suspense, lazy, useEffect, useMemo, useRef, useState } from 'react';
+import React, { Suspense, lazy, useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   motion,
@@ -122,55 +122,55 @@ const App: React.FC<AppProps> = ({ locale, initialSection, currentPath, anchorId
       title: (t('meta.home.title') as string) || 'Collaby.t | Innovation Studio - Inove com IA & MVPs',
       description:
         (t('meta.home.description') as string) ||
-        'EstÃºdio de inovaÃ§Ã£o especializado em MVPs e IA generativa â€” transformamos ideias em produtos escalÃ¡veis.',
+        'Est�dio de inova��o especializado em MVPs e IA generativa � transformamos ideias em produtos escal�veis.',
       url: canonicalFromPath(buildSectionPath(locale, 'home')),
       image: `${SITE_URL}/og-image.jpg`,
     },
     solutions: {
-      title: (t('meta.solutions.title') as string) || 'SoluÃ§Ãµes â€” Collaby.t',
+      title: (t('meta.solutions.title') as string) || 'Solu��es � Collaby.t',
       description:
         (t('meta.solutions.description') as string) ||
-        'SoluÃ§Ãµes para indÃºstrias, startups e varejo com IA e tecnologia de ponta.',
+        'Solu��es para ind�strias, startups e varejo com IA e tecnologia de ponta.',
       url: canonicalFromPath(buildSectionPath(locale, 'solutions')),
       image: `${SITE_URL}/og-image.jpg`,
     },
     methodology: {
-      title: (t('meta.methodology.title') as string) || 'Metodologia â€” Collaby.t',
+      title: (t('meta.methodology.title') as string) || 'Metodologia — Collaby.t',
       description:
         (t('meta.methodology.description') as string) ||
-        'Nossa abordagem de discovery, prototipagem e entrega contÃ­nua para reduzir riscos e acelerar resultados.',
+        'Nossa abordagem de discovery, prototipagem e entrega cont�nua para reduzir riscos e acelerar resultados.',
       url: canonicalFromPath(buildSectionPath(locale, 'methodology')),
       image: `${SITE_URL}/og-image.jpg`,
     },
     projects: {
-      title: (t('meta.projects.title') as string) || 'Projetos â€” Collaby.t',
+      title: (t('meta.projects.title') as string) || 'Projetos — Collaby.t',
       description:
         (t('meta.projects.description') as string) ||
-        'PortfÃ³lio de MVPs e soluÃ§Ãµes desenvolvidas com foco em impacto e escalabilidade.',
+        'Portf�lio de MVPs e solu��es desenvolvidas com foco em impacto e escalabilidade.',
       url: canonicalFromPath(buildSectionPath(locale, 'projects')),
       image: `${SITE_URL}/og-image.jpg`,
     },
     about: {
-      title: (t('meta.about.title') as string) || 'Sobre â€” Collaby.t',
+      title: (t('meta.about.title') as string) || 'Sobre — Collaby.t',
       description:
         (t('meta.about.description') as string) ||
-        'ConheÃ§a nossa equipe, missÃ£o e experiÃªncia em construir produtos digitais.',
+        'Conhe�a nossa equipe, miss�o e experi�ncia em construir produtos digitais.',
       url: canonicalFromPath(buildSectionPath(locale, 'about')),
       image: `${SITE_URL}/og-image.jpg`,
     },
     tech: {
-      title: (t('meta.tech.title') as string) || 'Tech â€” Collaby.t',
+      title: (t('meta.tech.title') as string) || 'Tech — Collaby.t',
       description:
         (t('meta.tech.description') as string) ||
-        'TendÃªncias tecnolÃ³gicas e aplicaÃ§Ãµes de IA generativa para produtos digitais.',
+        'Tend�ncias tecnol�gicas e aplica��es de IA generativa para produtos digitais.',
       url: canonicalFromPath(buildSectionPath(locale, 'tech')),
       image: `${SITE_URL}/og-image.jpg`,
     },
     faq: {
-      title: locale === 'pt-br' ? 'Perguntas Frequentes â€” Collaby.t' : 'FAQ â€” Collaby.t',
+      title: locale === 'pt-br' ? 'Perguntas Frequentes — Collaby.t' : 'FAQ — Collaby.t',
       description:
         locale === 'pt-br'
-          ? 'Perguntas frequentes sobre desenvolvimento de MVP, IA aplicada e contrataÃ§Ã£o da Collaby.t.'
+          ? 'Perguntas frequentes sobre desenvolvimento de MVP, IA aplicada e contrata��o da Collaby.t.'
           : 'Frequently asked questions about MVP development, applied AI and hiring Collaby.t.',
       url: canonicalFromPath(buildSectionPath(locale, 'faq')),
       image: `${SITE_URL}/og-image.jpg`,
@@ -195,7 +195,7 @@ const App: React.FC<AppProps> = ({ locale, initialSection, currentPath, anchorId
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'Rua Cassimiro de Abreu, 56, Sala 05',
-          addressLocality: 'JoÃ£o Pessoa',
+          addressLocality: 'Jo�o Pessoa',
           addressRegion: 'PB',
           postalCode: '58033-330',
           addressCountry: 'BR',
@@ -493,4 +493,5 @@ const App: React.FC<AppProps> = ({ locale, initialSection, currentPath, anchorId
 };
 
 export default App;
+
 

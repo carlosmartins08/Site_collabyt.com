@@ -58,7 +58,7 @@ const ContactModal: React.FC<ContactModalProps> = ({
       setFormError(
         error instanceof Error
           ? error.message
-          : 'N√£o foi poss√≠vel enviar o formul√°rio. Tente novamente.'
+          : 'N„o foi possÌvel enviar o formul·rio. Tente novamente.'
       );
     } finally {
       setIsSubmitting(false);
@@ -163,7 +163,7 @@ const ContactModal: React.FC<ContactModalProps> = ({
                           className="w-full px-4 py-3.5 rounded-xl bg-[#0A0A0A] border border-white/10 text-white focus:ring-1 focus:ring-brandOrange focus:border-brandOrange outline-none appearance-none transition-all text-sm shadow-inner cursor-pointer"
                         >
                           <option value="" disabled className="text-slate-500">
-                            Selecione uma op√ß√£o...
+                            Selecione uma opÁ„o...
                           </option>
                           {(t('contact.options') as string[]).map((opt, i) => (
                             <option key={i} value={opt} className="bg-brandGray">
@@ -251,7 +251,7 @@ const ContactModal: React.FC<ContactModalProps> = ({
                   <div className="space-y-2">
                     <h3 className="text-3xl font-bold text-white">Mensagem Enviada!</h3>
                     <p className="text-slate-400 text-lg max-w-sm mx-auto">
-                      Obrigado pelo interesse. Nossa equipe analisar√° seu perfil e entrar√° em contato.
+                      Obrigado pelo interesse. Nossa equipe analisar· seu perfil e entrar· em contato.
                     </p>
                   </div>
 
@@ -276,4 +276,5 @@ const ContactModal: React.FC<ContactModalProps> = ({
 };
 
 export default ContactModal;
+
 

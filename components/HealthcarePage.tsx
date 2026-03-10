@@ -30,94 +30,94 @@ type HealthcarePageProps = {
 
 const content = {
   'pt-br': {
-    title: 'Hospitais e Consultorios | Collaby.t',
+    title: 'Hospitais e Consultórios | Collaby.t',
     description:
-      'Arquitetura de conteudo e SEO para hospitais e consultorios que precisam de confianca, agendamentos e eficiencia operacional.',
+      'Arquitetura de Conteúdo e SEO para hospitais e Consultórios que precisam de confiança, agendamentos e eficiência operacional.',
     hero: {
-      eyebrow: 'Conteudo e SEO para Saude',
-      heading: 'Hospitais e consultorios: confianca, jornada do paciente e escala',
+      eyebrow: 'Conteúdo e SEO para Saúde',
+      heading: 'Hospitais e Consultórios: confiança, jornada do paciente e escala',
       subheading:
-        'Criamos um ecossistema de conteudo que aumenta descoberta, prova credibilidade e gera agendamentos qualificados.',
+        'Criamos um ecossistema de Conteúdo que aumenta descoberta, prova credibilidade e gera agendamentos qualificados.',
       ctaPrimary: 'Falar com especialista',
-      ctaSecondary: 'Ver solucoes',
+      ctaSecondary: 'Ver soluções',
     },
     painPoints: {
-      title: 'Principais desafios de descoberta em saude',
+      title: 'Principais desafios de descoberta em Saúde',
       items: [
         {
           title: 'Baixa visibilidade de especialidades',
-          description: 'Pacientes nao encontram servicos chave com rapidez.',
+          description: 'Pacientes não encontram serviços chave com rapidez.',
         },
         {
-          title: 'Conteudo sem prova clinica',
-          description: 'Faltam dados e diferenciais que geram confianca.',
+          title: 'Conteúdo sem prova clínica',
+          description: 'Faltam dados e diferenciais que geram confiança.',
         },
         {
-          title: 'Experiencia digital fragmentada',
-          description: 'Agendamento e informacoes dispersas reduzem conversao.',
+          title: 'experiência digital fragmentada',
+          description: 'Agendamento e informações dispersas reduzem conversão.',
         },
       ],
     },
     personas: {
       title: 'Personas alvo',
       items: [
-        'Diretor hospitalar buscando eficiencia e reputacao',
-        'Gestor de clinica aumentando agendamentos',
+        'Diretor hospitalar buscando eficiência e reputacao',
+        'Gestor de clínica aumentando agendamentos',
         'Time de TI integrando sistemas e dados',
         'Compras comparando parceiros de tecnologia',
       ],
     },
     intents: {
-      title: 'Intencoes de busca',
+      title: 'intenções de busca',
       items: [
         'informacional: como aumentar agendamentos em hospitais',
-        'comparativa: melhor parceiro para saude digital',
+        'comparativa: melhor parceiro para Saúde digital',
         'comercial: consultoria de tecnologia para hospitais',
         'transacional: contratar time para plataforma de agendamento',
       ],
     },
     methodology: {
-      title: 'Metodo em 8 etapas para autoridade em saude',
+      title: 'Método em 8 etapas para autoridade em Saúde',
       steps: [
-        'Diagnostico da oferta e especialidades',
+        'Diagnóstico da oferta e especialidades',
         'Mapeamento de personas e jornada do paciente',
-        'Pesquisa de intencoes e termos de saude',
-        'Clusters por especialidade e servico',
-        'Paginas por procedimento e dor critica',
-        'Interligacao com provas, cases e dados',
-        'SEO tecnico, performance e acessibilidade',
-        'Otimizacao para motores de IA',
+        'Pesquisa de intenções e termos de Saúde',
+        'Clusters por especialidade e serviço',
+        'Páginas por procedimento e dor critica',
+        'Interligação com provas, cases e dados',
+        'SEO técnico, performance e acessibilidade',
+        'Otimização para motores de IA',
       ],
     },
     deliverables: {
-      title: 'Entregaveis para hospitais e consultorios',
+      title: 'Entregáveis para hospitais e Consultórios',
       items: [
-        'Mapa de conteudo por especialidade',
-        'Paginas de servicos com prova clinica',
-        'Schema e SEO tecnico por pagina',
-        'Plano de expansao por linhas de cuidado',
+        'Mapa de Conteúdo por especialidade',
+        'Páginas de serviços com prova clínica',
+        'Schema e SEO técnico por página',
+        'Plano de expansão por linhas de cuidado',
       ],
     },
     clusters: {
-      title: 'Clusters recomendados para Saude',
+      title: 'Clusters recomendados para Saúde',
       items: [
         {
-          title: 'Agendamento e conversao',
-          description: 'Conteudo para atrair pacientes e reduzir friccao.',
+          title: 'Agendamento e conversão',
+          description: 'Conteúdo para atrair pacientes e reduzir friccao.',
           key: 'solutions',
         },
         {
           title: 'Dados e prontuario digital',
-          description: 'IA aplicada, analytics e integracao de sistemas.',
+          description: 'IA aplicada, analytics e integração de sistemas.',
           key: 'tech',
         },
         {
-          title: 'Metodo e governanca',
+          title: 'Método e governança',
           description: 'Processo, compliance e confiabilidade.',
           key: 'methodology',
         },
         {
-          title: 'Cases em saude',
+          title: 'Cases em Saúde',
           description: 'Resultados e impacto clinico.',
           key: 'projects',
         },
@@ -128,22 +128,22 @@ const content = {
       items: [
         {
           q: 'Esse plano ajuda a gerar mais agendamentos?',
-          a: 'Sim. Estruturamos paginas e funis com foco em conversao.',
+          a: 'Sim. Estruturamos Páginas e funis com foco em conversão.',
         },
         {
-          q: 'Como tratar LGPD e dados sensiveis?',
-          a: 'Incluimos governanca, seguranca e conteudo alinhado a conformidade.',
+          q: 'Como tratar LGPD e dados sensíveis?',
+          a: 'Incluimos governança, segurança e Conteúdo alinhado a conformidade.',
         },
         {
           q: 'Preciso mudar meus sistemas atuais?',
-          a: 'Nao. O plano se integra ao stack existente.',
+          a: 'não. O plano se integra ao stack existente.',
         },
       ],
     },
     cta: {
-      title: 'Vamos acelerar a descoberta em saude',
-      text: 'Receba um plano de conteudo e SEO para hospitais e consultorios.',
-      button: 'Agendar diagnostico',
+      title: 'Vamos acelerar a descoberta em Saúde',
+      text: 'Receba um plano de Conteúdo e SEO para hospitais e Consultórios.',
+      button: 'Agendar Diagnóstico',
     },
   },
   en: {
@@ -293,7 +293,7 @@ const HealthcarePage: React.FC<HealthcarePageProps> = ({ locale }) => {
         '@type': 'Service',
         serviceType:
           locale === 'pt-br'
-            ? 'Conteudo e SEO para hospitais e consultorios'
+            ? 'Conteúdo e SEO para hospitais e Consultórios'
             : 'Content and SEO for hospitals and clinics',
         provider: {
           '@type': 'Organization',
@@ -308,13 +308,13 @@ const HealthcarePage: React.FC<HealthcarePageProps> = ({ locale }) => {
           {
             '@type': 'ListItem',
             position: 1,
-            name: locale === 'pt-br' ? 'Inicio' : 'Home',
+            name: locale === 'pt-br' ? 'Início' : 'Home',
             item: canonicalFromPath(`/${locale}`),
           },
           {
             '@type': 'ListItem',
             position: 2,
-            name: locale === 'pt-br' ? 'Hospitais e Consultorios' : 'Healthcare',
+            name: locale === 'pt-br' ? 'Hospitais e Consultórios' : 'Healthcare',
             item: canonical,
           },
         ],
@@ -544,3 +544,6 @@ const HealthcarePage: React.FC<HealthcarePageProps> = ({ locale }) => {
 };
 
 export default HealthcarePage;
+
+
+

@@ -234,7 +234,7 @@ export const translations = {
         },
         {
           q: "Quanto tempo leva para desenvolver um MVP?",
-          a: "Nossa metodologia Lean foca em velocidade. Tipicamente, entregamos MVPs funcionais entre 6 a 12 weeks, dependendo da complexidade, para que você possa validar sua ideia no mercado o mais rápido possível."
+          a: "Nossa metodologia Lean foca em velocidade. Tipicamente, entregamos MVPs funcionais entre 6 e 12 semanas, dependendo da complexidade, para que você possa validar sua ideia no mercado o mais rápido possível."
         },
         {
           q: "Vocês assinam Acordo de Confidencialidade (NDA)?",
@@ -613,4 +613,5 @@ type ValueAtPath<T, P extends string> =
     : never;
 
 export type TranslationValue<K extends TranslationKey> = ValueAtPath<Translations[DefaultLang], K>;
+
 
