@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+Ôªøimport React, { useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import {
   ArrowRight,
@@ -32,83 +32,83 @@ const content = {
   'pt-br': {
     title: 'Startups | Collaby.t',
     description:
-      'Arquitetura de Conte˙do e SEO para startups que precisam de traÁ„o, clareza de posicionamento e demanda qualificada.',
+      'Arquitetura de Conte√∫do e SEO para startups que precisam de tra√ß√£o, clareza de posicionamento e demanda qualificada.',
     hero: {
-      eyebrow: 'Conte˙do e SEO para Startups',
-      heading: 'Startups: MVP, IA aplicada e crescimento com foco em traÁ„o',
+      eyebrow: 'Conte√∫do e SEO para Startups',
+      heading: 'Startups: MVP, IA aplicada e crescimento com foco em tra√ß√£o',
       subheading:
-        'Transformamos sua p·gina principal em um ecossistema de Conte˙do que gera demanda, prova autoridade e acelera validaÁ„o.',
+        'Transformamos sua p√°gina principal em um ecossistema de Conte√∫do que gera demanda, prova autoridade e acelera valida√ß√£o.',
       ctaPrimary: 'Falar com especialista',
-      ctaSecondary: 'Ver soluÁıes',
+      ctaSecondary: 'Ver solu√ß√µes',
     },
     painPoints: {
       title: 'O que trava a descoberta de startups',
       items: [
         {
           title: 'Baixa clareza de proposta',
-          description: 'O p˙blico n„o entende rapido o que vocÍ resolve.',
+          description: 'O p√∫blico n√£o entende r√°pido o que voc√™ resolve.',
         },
         {
-          title: 'Falta de p·ginas por intenÁ„o',
-          description: 'Tudo esta em uma p·gina e o Google n„o sabe ranquear.',
+          title: 'Falta de p√°ginas por inten√ß√£o',
+          description: 'Tudo est√° em uma p√°gina e o Google n√£o sabe ranquear.',
         },
         {
           title: 'Pouca prova de capacidade',
-          description: 'Sem cases e dados, a confianÁa n„o escala.',
+          description: 'Sem cases e dados, a confian√ßa n√£o escala.',
         },
       ],
     },
     personas: {
       title: 'Personas alvo',
       items: [
-        'Fundador em prÈ-seed buscando validaÁ„o',
-        'Product lead comparando parceiros tÈcnicos',
+        'Fundador em pr√©-seed buscando valida√ß√£o',
+        'Product lead comparando parceiros t√©cnicos',
         'CTO avaliando arquitetura e time',
-        'Investidor analisando sinais de traÁ„o',
+        'Investidor analisando sinais de tra√ß√£o',
       ],
     },
     intents: {
-      title: 'intenÁıes de busca',
+      title: 'inten√ß√µes de busca',
       items: [
         'informacional: como validar MVP',
-        'comparativa: melhor parceiro tÈcnico para startup',
+        'comparativa: melhor parceiro t√©cnico para startup',
         'comercial: consultoria de MVP e IA aplicada',
         'transacional: contratar equipe para construir MVP',
       ],
     },
     methodology: {
-      title: 'MÈtodo em 8 etapas para gerar traÁ„o org‚nica',
+      title: 'M√©todo em 8 etapas para gerar tra√ß√£o org√¢nica',
       steps: [
-        'InterpretaÁ„o do negocio e diferenciais',
+        'Interpreta√ß√£o do neg√≥cio e diferenciais',
         'Mapeamento de personas e maturidade',
-        'Levantamento de intenÁıes de busca',
-        'DefiniÁ„o de clusters de Conte˙do',
-        'CriaÁ„o de p·ginas complementares',
-        'EstratÈgia de hiperlinks internos',
-        'CoerÍncia narrativa e sem‚ntica',
-        'OtimizaÁ„o para motores de IA',
+        'Levantamento de inten√ß√µes de busca',
+        'Defini√ß√£o de clusters de Conte√∫do',
+        'Cria√ß√£o de p√°ginas complementares',
+        'Estrat√©gia de hiperlinks internos',
+        'Coer√™ncia narrativa e sem√¢ntica',
+        'Otimiza√ß√£o para motores de IA',
       ],
     },
     deliverables: {
-      title: 'Entreg·veis para startups',
+      title: 'Entreg√°veis para startups',
       items: [
-        'Mapa de clusters e p·ginas prioritarias',
-        'Wireframe e copy orientados a convers„o',
-        'SEO tÈcnico + schema por p·gina',
-        'Plano de expans„o de Conte˙do',
+        'Mapa de clusters e p√°ginas priorit√°rias',
+        'Wireframe e copy orientados √† convers√£o',
+        'SEO t√©cnico + schema por p√°gina',
+        'Plano de expans√£o de Conte√∫do',
       ],
     },
     clusters: {
       title: 'Clusters recomendados para Startups',
       items: [
         {
-          title: 'MVP e validaÁ„o r·pida',
-          description: 'p·ginas que respondem a busca por MVP e testes de mercado.',
+          title: 'MVP e valida√ß√£o r√°pida',
+          description: 'p√°ginas que respondem √† busca por MVP e testes de mercado.',
           key: 'solutions',
         },
         {
-          title: 'IA aplicada e automaÁ„o',
-          description: 'Casos de uso claros e resultados mensur·veis.',
+          title: 'IA aplicada e automa√ß√£o',
+          description: 'Casos de uso claros e resultados mensur√°veis.',
           key: 'tech',
         },
         {
@@ -118,7 +118,7 @@ const content = {
         },
         {
           title: 'Cases e provas',
-          description: 'Resultados reais para construir confianÁa.',
+          description: 'Resultados reais para construir confian√ßa.',
           key: 'projects',
         },
       ],
@@ -128,22 +128,22 @@ const content = {
       items: [
         {
           q: 'Em quanto tempo esse plano gera impacto?',
-          a: 'Normalmente entre 4 e 8 semanas para indexaÁ„o e sinais iniciais.',
+          a: 'Normalmente entre 4 e 8 semanas para indexa√ß√£o e sinais iniciais.',
         },
         {
-          q: 'Preciso criar v·rias p·ginas de uma vez?',
-          a: 'n„o. Priorizamos as p·ginas com maior impacto e expandimos por ciclos.',
+          q: 'Preciso criar v√°rias p√°ginas de uma vez?',
+          a: 'n√£o. Priorizamos as p√°ginas com maior impacto e expandimos por ciclos.',
         },
         {
-          q: 'Isso substitui an˙ncios pagos?',
-          a: 'n„o. Complementa e reduz custo por lead ao longo do tempo.',
+          q: 'Isso substitui an√∫ncios pagos?',
+          a: 'n√£o. Complementa e reduz custo por lead ao longo do tempo.',
         },
       ],
     },
     cta: {
       title: 'Vamos destravar a descoberta da sua startup',
-      text: 'Receba um diagnÛstico de cluster, p·ginas prioritarias e plano de execuÁ„o.',
-      button: 'Agendar diagnÛstico',
+      text: 'Receba um diagn√≥stico de cluster, p√°ginas priorit√°rias e plano de execu√ß√£o.',
+      button: 'Agendar diagn√≥stico',
     },
   },
   en: {
@@ -178,7 +178,7 @@ const content = {
     personas: {
       title: 'Target personas',
       items: [
-        'Founder in prÈ-seed looking for validation',
+        'Founder in pr√©-seed looking for validation',
         'Product lead comparing technical partners',
         'CTO evaluating architecture and team',
         'Investor scanning traction signals',
@@ -293,7 +293,7 @@ const StartupsPage: React.FC<StartupsPageProps> = ({ locale }) => {
         '@type': 'Service',
         serviceType:
           locale === 'pt-br'
-            ? 'Arquitetura de Conte˙do e SEO para startups'
+            ? 'Arquitetura de Conte√∫do e SEO para startups'
             : 'Content architecture and SEO for startups',
         provider: {
           '@type': 'Organization',
@@ -308,7 +308,7 @@ const StartupsPage: React.FC<StartupsPageProps> = ({ locale }) => {
           {
             '@type': 'ListItem',
             position: 1,
-            name: locale === 'pt-br' ? 'InÌcio' : 'Home',
+            name: locale === 'pt-br' ? 'In√≠cio' : 'Home',
             item: canonicalFromPath(`/${locale}`),
           },
           {
@@ -544,5 +544,6 @@ const StartupsPage: React.FC<StartupsPageProps> = ({ locale }) => {
 };
 
 export default StartupsPage;
+
 
 

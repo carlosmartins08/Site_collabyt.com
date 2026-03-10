@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+ï»¿import React, { useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import {
   ArrowRight,
@@ -30,95 +30,95 @@ type HealthcarePageProps = {
 
 const content = {
   'pt-br': {
-    title: 'Hospitais e Consultórios | Collaby.t',
+    title: 'Hospitais e ConsultÃ³rios | Collaby.t',
     description:
-      'Arquitetura de Conteúdo e SEO para hospitais e Consultórios que precisam de confiança, agendamentos e eficiência operacional.',
+      'Arquitetura de ConteÃºdo e SEO para hospitais e ConsultÃ³rios que precisam de confianÃ§a, agendamentos e eficiÃªncia operacional.',
     hero: {
-      eyebrow: 'Conteúdo e SEO para Saúde',
-      heading: 'Hospitais e Consultórios: confiança, jornada do paciente e escala',
+      eyebrow: 'ConteÃºdo e SEO para SaÃºde',
+      heading: 'Hospitais e ConsultÃ³rios: confianÃ§a, jornada do paciente e escala',
       subheading:
-        'Criamos um ecossistema de Conteúdo que aumenta descoberta, prova credibilidade e gera agendamentos qualificados.',
+        'Criamos um ecossistema de ConteÃºdo que aumenta descoberta, prova credibilidade e gera agendamentos qualificados.',
       ctaPrimary: 'Falar com especialista',
-      ctaSecondary: 'Ver soluções',
+      ctaSecondary: 'Ver soluÃ§Ãµes',
     },
     painPoints: {
-      title: 'Principais desafios de descoberta em Saúde',
+      title: 'Principais desafios de descoberta em SaÃºde',
       items: [
         {
           title: 'Baixa visibilidade de especialidades',
-          description: 'Pacientes não encontram serviços chave com rapidez.',
+          description: 'Pacientes nÃ£o encontram serviÃ§os chave com rapidez.',
         },
         {
-          title: 'Conteúdo sem prova clínica',
-          description: 'Faltam dados e diferenciais que geram confiança.',
+          title: 'ConteÃºdo sem prova clÃ­nica',
+          description: 'Faltam dados e diferenciais que geram confianÃ§a.',
         },
         {
-          title: 'experiência digital fragmentada',
-          description: 'Agendamento e informações dispersas reduzem conversão.',
+          title: 'experiÃªncia digital fragmentada',
+          description: 'Agendamento e informaÃ§Ãµes dispersas reduzem conversÃ£o.',
         },
       ],
     },
     personas: {
       title: 'Personas alvo',
       items: [
-        'Diretor hospitalar buscando eficiência e reputacao',
-        'Gestor de clínica aumentando agendamentos',
+        'Diretor hospitalar buscando eficiÃªncia e reputaÃ§Ã£o',
+        'Gestor de clÃ­nica aumentando agendamentos',
         'Time de TI integrando sistemas e dados',
         'Compras comparando parceiros de tecnologia',
       ],
     },
     intents: {
-      title: 'intenções de busca',
+      title: 'intenÃ§Ãµes de busca',
       items: [
         'informacional: como aumentar agendamentos em hospitais',
-        'comparativa: melhor parceiro para Saúde digital',
+        'comparativa: melhor parceiro para SaÃºde digital',
         'comercial: consultoria de tecnologia para hospitais',
         'transacional: contratar time para plataforma de agendamento',
       ],
     },
     methodology: {
-      title: 'Método em 8 etapas para autoridade em Saúde',
+      title: 'MÃ©todo em 8 etapas para autoridade em SaÃºde',
       steps: [
-        'Diagnóstico da oferta e especialidades',
+        'DiagnÃ³stico da oferta e especialidades',
         'Mapeamento de personas e jornada do paciente',
-        'Pesquisa de intenções e termos de Saúde',
-        'Clusters por especialidade e serviço',
-        'Páginas por procedimento e dor critica',
-        'Interligação com provas, cases e dados',
-        'SEO técnico, performance e acessibilidade',
-        'Otimização para motores de IA',
+        'Pesquisa de intenÃ§Ãµes e termos de SaÃºde',
+        'Clusters por especialidade e serviÃ§o',
+        'PÃ¡ginas por procedimento e dor crÃ­tica',
+        'InterligaÃ§Ã£o com provas, cases e dados',
+        'SEO tÃ©cnico, performance e acessibilidade',
+        'OtimizaÃ§Ã£o para motores de IA',
       ],
     },
     deliverables: {
-      title: 'Entregáveis para hospitais e Consultórios',
+      title: 'EntregÃ¡veis para hospitais e ConsultÃ³rios',
       items: [
-        'Mapa de Conteúdo por especialidade',
-        'Páginas de serviços com prova clínica',
-        'Schema e SEO técnico por página',
-        'Plano de expansão por linhas de cuidado',
+        'Mapa de ConteÃºdo por especialidade',
+        'PÃ¡ginas de serviÃ§os com prova clÃ­nica',
+        'Schema e SEO tÃ©cnico por pÃ¡gina',
+        'Plano de expansÃ£o por linhas de cuidado',
       ],
     },
     clusters: {
-      title: 'Clusters recomendados para Saúde',
+      title: 'Clusters recomendados para SaÃºde',
       items: [
         {
-          title: 'Agendamento e conversão',
-          description: 'Conteúdo para atrair pacientes e reduzir friccao.',
+          title: 'Agendamento e conversÃ£o',
+          description: 'ConteÃºdo para atrair pacientes e reduzir fricÃ§Ã£o.',
           key: 'solutions',
         },
         {
-          title: 'Dados e prontuario digital',
-          description: 'IA aplicada, analytics e integração de sistemas.',
+          title: 'Dados e prontuÃ¡rio digital',
+          description: 'IA aplicada, analytics e integraÃ§Ã£o de sistemas.',
           key: 'tech',
         },
         {
-          title: 'Método e governança',
+          title: 'MÃ©todo e governanÃ§a',
           description: 'Processo, compliance e confiabilidade.',
           key: 'methodology',
         },
         {
-          title: 'Cases em Saúde',
-          description: 'Resultados e impacto clinico.',
+          title: 'Cases em SaÃºde',
+          description: 'Resultados e impacto clÃ­nico.',
           key: 'projects',
         },
       ],
@@ -128,22 +128,22 @@ const content = {
       items: [
         {
           q: 'Esse plano ajuda a gerar mais agendamentos?',
-          a: 'Sim. Estruturamos Páginas e funis com foco em conversão.',
+          a: 'Sim. Estruturamos PÃ¡ginas e funis com foco em conversÃ£o.',
         },
         {
-          q: 'Como tratar LGPD e dados sensíveis?',
-          a: 'Incluimos governança, segurança e Conteúdo alinhado a conformidade.',
+          q: 'Como tratar LGPD e dados sensÃ­veis?',
+          a: 'IncluÃ­mos governanÃ§a, seguranÃ§a e ConteÃºdo alinhado Ã  conformidade.',
         },
         {
           q: 'Preciso mudar meus sistemas atuais?',
-          a: 'não. O plano se integra ao stack existente.',
+          a: 'nÃ£o. O plano se integra ao stack existente.',
         },
       ],
     },
     cta: {
-      title: 'Vamos acelerar a descoberta em Saúde',
-      text: 'Receba um plano de Conteúdo e SEO para hospitais e Consultórios.',
-      button: 'Agendar Diagnóstico',
+      title: 'Vamos acelerar a descoberta em SaÃºde',
+      text: 'Receba um plano de ConteÃºdo e SEO para hospitais e ConsultÃ³rios.',
+      button: 'Agendar DiagnÃ³stico',
     },
   },
   en: {
@@ -293,7 +293,7 @@ const HealthcarePage: React.FC<HealthcarePageProps> = ({ locale }) => {
         '@type': 'Service',
         serviceType:
           locale === 'pt-br'
-            ? 'Conteúdo e SEO para hospitais e Consultórios'
+            ? 'ConteÃºdo e SEO para hospitais e ConsultÃ³rios'
             : 'Content and SEO for hospitals and clinics',
         provider: {
           '@type': 'Organization',
@@ -308,13 +308,13 @@ const HealthcarePage: React.FC<HealthcarePageProps> = ({ locale }) => {
           {
             '@type': 'ListItem',
             position: 1,
-            name: locale === 'pt-br' ? 'Início' : 'Home',
+            name: locale === 'pt-br' ? 'InÃ­cio' : 'Home',
             item: canonicalFromPath(`/${locale}`),
           },
           {
             '@type': 'ListItem',
             position: 2,
-            name: locale === 'pt-br' ? 'Hospitais e Consultórios' : 'Healthcare',
+            name: locale === 'pt-br' ? 'Hospitais e ConsultÃ³rios' : 'Healthcare',
             item: canonical,
           },
         ],
@@ -544,6 +544,7 @@ const HealthcarePage: React.FC<HealthcarePageProps> = ({ locale }) => {
 };
 
 export default HealthcarePage;
+
 
 
 

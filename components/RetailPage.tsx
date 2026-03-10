@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+Ôªøimport React, { useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import {
   ArrowRight,
@@ -32,88 +32,88 @@ const content = {
   'pt-br': {
     title: 'Varejo | Collaby.t',
     description:
-      'Arquitetura de Conte˙do e SEO para varejo que busca convers„o, omnichannel e crescimento sustent·vel.',
+      'Arquitetura de Conte√∫do e SEO para varejo que busca convers√£o, omnichannel e crescimento sustent√°vel.',
     hero: {
-      eyebrow: 'Conte˙do e SEO para Varejo',
-      heading: 'Varejo: experiÍncia de compra, convers„o e escala',
+      eyebrow: 'Conte√∫do e SEO para Varejo',
+      heading: 'Varejo: experi√™ncia de compra, convers√£o e escala',
       subheading:
-        'Criamos um ecossistema de Conte˙do que aumenta descoberta, reduz custo de aquisiÁ„o e prova valor comercial.',
+        'Criamos um ecossistema de Conte√∫do que aumenta descoberta, reduz custo de aquisi√ß√£o e prova valor comercial.',
       ctaPrimary: 'Falar com especialista',
-      ctaSecondary: 'Ver soluÁıes',
+      ctaSecondary: 'Ver solu√ß√µes',
     },
     painPoints: {
-      title: 'Principais desafios do varejo na busca org‚nica',
+      title: 'Principais desafios do varejo na busca org√¢nica',
       items: [
         {
-          title: 'Baixa convers„o em canais digitais',
-          description: 'O tr·fego chega, mas n„o se transforma em receita.',
+          title: 'Baixa convers√£o em canais digitais',
+          description: 'O tr√°fego chega, mas n√£o se transforma em receita.',
         },
         {
-          title: 'Pouca integraÁ„o omnichannel',
-          description: 'A experiÍncia entre loja fisica e digital e inconsistente.',
+          title: 'Pouca integra√ß√£o omnichannel',
+          description: 'A experi√™ncia entre loja f√≠sica e digital √© inconsistente.',
         },
         {
-          title: 'Conte˙do sem foco em intenÁ„o',
-          description: 'P·ginas n„o respondem as perguntas certas do cliente.',
+          title: 'Conte√∫do sem foco em inten√ß√£o',
+          description: 'P√°ginas n√£o respondem √†s perguntas certas do cliente.',
         },
       ],
     },
     personas: {
       title: 'Personas alvo',
       items: [
-        'Diretor de e-commerce buscando aumento de convers„o',
+        'Diretor de e-commerce buscando aumento de convers√£o',
         'CMO avaliando CAC e posicionamento',
         'Time de tecnologia integrando canais e dados',
         'Compras comparando fornecedores de plataforma',
       ],
     },
     intents: {
-      title: 'intenÁıes de busca',
+      title: 'inten√ß√µes de busca',
       items: [
-        'informacional: como aumentar convers„o no varejo',
+        'informacional: como aumentar convers√£o no varejo',
         'comparativa: melhor plataforma omnichannel',
         'comercial: consultoria de e-commerce e IA aplicada',
         'transacional: contratar time para evoluir loja digital',
       ],
     },
     methodology: {
-      title: 'MÈtodo em 8 etapas para escalar o varejo digital',
+      title: 'M√©todo em 8 etapas para escalar o varejo digital',
       steps: [
-        'DiagnÛstico de funil e canais',
+        'Diagn√≥stico de funil e canais',
         'Mapeamento de personas e jornada',
-        'Pesquisa de intenÁıes e categorias',
+        'Pesquisa de inten√ß√µes e categorias',
         'Clusters por linhas e ofertas',
-        'P·ginas por solucao e campanha',
-        'InterligaÁ„o com provas e cases',
-        'SEO tÈcnico e performance',
-        'OtimizaÁ„o para motores de IA',
+        'P√°ginas por solu√ß√£o e campanha',
+        'Interliga√ß√£o com provas e cases',
+        'SEO t√©cnico e performance',
+        'Otimiza√ß√£o para motores de IA',
       ],
     },
     deliverables: {
-      title: 'Entreg·veis para varejo',
+      title: 'Entreg√°veis para varejo',
       items: [
-        'Mapa de Conte˙do por categoria e jornada',
-        'Pilares de convers„o e omnichannel',
-        'Schema e SEO tÈcnico por p·gina',
-        'Plano de expans„o por coleÁ„o/linha',
+        'Mapa de Conte√∫do por categoria e jornada',
+        'Pilares de convers√£o e omnichannel',
+        'Schema e SEO t√©cnico por p√°gina',
+        'Plano de expans√£o por cole√ß√£o/linha',
       ],
     },
     clusters: {
       title: 'Clusters recomendados para Varejo',
       items: [
         {
-          title: 'convers„o e performance',
-          description: 'OtimizaÁ„o de funil e jornada de compra.',
+          title: 'convers√£o e performance',
+          description: 'Otimiza√ß√£o de funil e jornada de compra.',
           key: 'solutions',
         },
         {
-          title: 'Dados e personalizacao',
-          description: 'IA aplicada para recomendacao e CRM.',
+          title: 'Dados e personaliza√ß√£o',
+          description: 'IA aplicada para recomenda√ß√£o e CRM.',
           key: 'tech',
         },
         {
-          title: 'MÈtodo e operaÁ„o',
-          description: 'Processos, testes e governanÁa.',
+          title: 'M√©todo e opera√ß√£o',
+          description: 'Processos, testes e governan√ßa.',
           key: 'methodology',
         },
         {
@@ -128,22 +128,22 @@ const content = {
       items: [
         {
           q: 'Esse plano ajuda no omnichannel?',
-          a: 'Sim, estruturamos P·ginas e dados para integrar canais.',
+          a: 'Sim, estruturamos P√°ginas e dados para integrar canais.',
         },
         {
-          q: 'Quanto tempo para melhorar convers„o?',
+          q: 'Quanto tempo para melhorar convers√£o?',
           a: 'Normalmente 4 a 8 semanas para sinais iniciais.',
         },
         {
           q: 'Preciso trocar minha plataforma?',
-          a: 'n„o. O plano se adapta ao stack atual.',
+          a: 'n√£o. O plano se adapta ao stack atual.',
         },
       ],
     },
     cta: {
-      title: 'Vamos destravar convers„o no varejo',
-      text: 'Receba um plano de Conte˙do e SEO alinhado a receita.',
-      button: 'Agendar DiagnÛstico',
+      title: 'Vamos destravar convers√£o no varejo',
+      text: 'Receba um plano de Conte√∫do e SEO alinhado √† receita.',
+      button: 'Agendar Diagn√≥stico',
     },
   },
   en: {
@@ -308,7 +308,7 @@ const RetailPage: React.FC<RetailPageProps> = ({ locale }) => {
           {
             '@type': 'ListItem',
             position: 1,
-            name: locale === 'pt-br' ? 'InÌcio' : 'Home',
+            name: locale === 'pt-br' ? 'In√≠cio' : 'Home',
             item: canonicalFromPath(`/${locale}`),
           },
           {
@@ -544,6 +544,7 @@ const RetailPage: React.FC<RetailPageProps> = ({ locale }) => {
 };
 
 export default RetailPage;
+
 
 
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+ï»¿import React, { useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import {
   ArrowRight,
@@ -30,30 +30,30 @@ type IndustriesPageProps = {
 
 const content = {
   'pt-br': {
-    title: 'Indústrias | Collaby.t',
+    title: 'IndÃºstrias | Collaby.t',
     description:
-      'Arquitetura de Conteúdo e SEO para Indústrias que buscam produtividade, automação e transformação digital com previsibilidade.',
+      'Arquitetura de ConteÃºdo e SEO para IndÃºstrias que buscam produtividade, automaÃ§Ã£o e transformaÃ§Ã£o digital com previsibilidade.',
     hero: {
-      eyebrow: 'Conteúdo e SEO para Indústrias',
-      heading: 'Indústrias: transformação digital e eficiência operacional',
+      eyebrow: 'ConteÃºdo e SEO para IndÃºstrias',
+      heading: 'IndÃºstrias: transformaÃ§Ã£o digital e eficiÃªncia operacional',
       subheading:
-        'Construimos um ecossistema de Conteúdo que prova capacidade tecnica, reduz risco e gera demanda qualificada.',
+        'ConstruÃ­mos um ecossistema de ConteÃºdo que prova capacidade tÃ©cnica, reduz risco e gera demanda qualificada.',
       ctaPrimary: 'Falar com especialista',
-      ctaSecondary: 'Ver soluções',
+      ctaSecondary: 'Ver soluÃ§Ãµes',
     },
     painPoints: {
       title: 'Principais desafios de descoberta industrial',
       items: [
         {
           title: 'Processos legacy pouco claros',
-          description: 'O mercado não entende a evolucao da operação nem o impacto.',
+          description: 'O mercado nÃ£o entende a evoluÃ§Ã£o da operaÃ§Ã£o nem o impacto.',
         },
         {
           title: 'Baixa visibilidade de ganhos',
-          description: 'Sem indicadores e casos, a confiança não se estabelece.',
+          description: 'Sem indicadores e casos, a confianÃ§a nÃ£o se estabelece.',
         },
         {
-          title: 'Conteúdo técnico disperso',
+          title: 'ConteÃºdo tÃ©cnico disperso',
           description: 'Falta uma narrativa que conecte tecnologia a resultado.',
         },
       ],
@@ -61,49 +61,49 @@ const content = {
     personas: {
       title: 'Personas alvo',
       items: [
-        'Diretor industrial buscando eficiência e custo menor',
-        'Gerente de operações avaliando automação',
-        'CTO ou TI validando arquitetura e segurança',
+        'Diretor industrial buscando eficiÃªncia e custo menor',
+        'Gerente de operaÃ§Ãµes avaliando automaÃ§Ã£o',
+        'CTO ou TI validando arquitetura e seguranÃ§a',
         'Compras comparando fornecedores de tecnologia',
       ],
     },
     intents: {
-      title: 'Intenções de busca',
+      title: 'IntenÃ§Ãµes de busca',
       items: [
-        'informacional: indústria 4.0 na pratica',
-        'comparativa: parceiro de transformação digital',
-        'comercial: automação industrial e IA aplicada',
-        'transacional: contratar integrador e time técnico',
+        'informacional: indÃºstria 4.0 na prÃ¡tica',
+        'comparativa: parceiro de transformaÃ§Ã£o digital',
+        'comercial: automaÃ§Ã£o industrial e IA aplicada',
+        'transacional: contratar integrador e time tÃ©cnico',
       ],
     },
     methodology: {
-      title: 'Método em 8 etapas para gerar autoridade industrial',
+      title: 'MÃ©todo em 8 etapas para gerar autoridade industrial',
       steps: [
-        'Diagnóstico do negocio e objetivos operacionais',
+        'DiagnÃ³stico do negÃ³cio e objetivos operacionais',
         'Mapeamento de personas e jornada de compra',
-        'Pesquisa de Intenções e termos setoriais',
-        'Definição de clusters por linha de produção',
-        'Páginas por solução e por dor critica',
-        'Interligação com cases e resultados',
-        'Padronização semântica e SEO técnico',
-        'Otimização para motores de IA',
+        'Pesquisa de IntenÃ§Ãµes e termos setoriais',
+        'DefiniÃ§Ã£o de clusters por linha de produÃ§Ã£o',
+        'PÃ¡ginas por soluÃ§Ã£o e por dor crÃ­tica',
+        'InterligaÃ§Ã£o com cases e resultados',
+        'PadronizaÃ§Ã£o semÃ¢ntica e SEO tÃ©cnico',
+        'OtimizaÃ§Ã£o para motores de IA',
       ],
     },
     deliverables: {
-      title: 'Entregáveis para Indústrias',
+      title: 'EntregÃ¡veis para IndÃºstrias',
       items: [
-        'Mapa de Conteúdo por área industrial',
-        'Pilares de solução com provas tecnicas',
-        'Schema e SEO técnico por página',
-        'Plano de expansão por setor e planta',
+        'Mapa de ConteÃºdo por Ã¡rea industrial',
+        'Pilares de soluÃ§Ã£o com provas tÃ©cnicas',
+        'Schema e SEO tÃ©cnico por pÃ¡gina',
+        'Plano de expansÃ£o por setor e planta',
       ],
     },
     clusters: {
-      title: 'Clusters recomendados para Indústrias',
+      title: 'Clusters recomendados para IndÃºstrias',
       items: [
         {
-          title: 'automação e controle',
-          description: 'Conteúdo para ganhos de produtividade e reducao de falhas.',
+          title: 'automaÃ§Ã£o e controle',
+          description: 'ConteÃºdo para ganhos de produtividade e reduÃ§Ã£o de falhas.',
           key: 'solutions',
         },
         {
@@ -112,13 +112,13 @@ const content = {
           key: 'tech',
         },
         {
-          title: 'Método e governança',
-          description: 'Processo, compliance e segurança.',
+          title: 'MÃ©todo e governanÃ§a',
+          description: 'Processo, compliance e seguranÃ§a.',
           key: 'methodology',
         },
         {
           title: 'Cases industriais',
-          description: 'Prova social e impactos mensuraveis.',
+          description: 'Prova social e impactos mensurÃ¡veis.',
           key: 'projects',
         },
       ],
@@ -127,23 +127,23 @@ const content = {
       title: 'Perguntas frequentes',
       items: [
         {
-          q: 'Qual o primeiro passo para a indústria?',
-          a: 'Começamos com Diagnóstico da operação e metas de negocio.',
+          q: 'Qual o primeiro passo para a indÃºstria?',
+          a: 'ComeÃ§amos com DiagnÃ³stico da operaÃ§Ã£o e metas de negÃ³cio.',
         },
         {
           q: 'Quanto tempo leva para ver resultado?',
-          a: 'Normalmente 6 a 10 semanas para sinais iniciais de tração.',
+          a: 'Normalmente 6 a 10 semanas para sinais iniciais de traÃ§Ã£o.',
         },
         {
-          q: 'Precisa parar a operação?',
-          a: 'não. O plano e pensado para evolucao gradual e segura.',
+          q: 'Precisa parar a operaÃ§Ã£o?',
+          a: 'nÃ£o. O plano Ã© pensado para evoluÃ§Ã£o gradual e segura.',
         },
       ],
     },
     cta: {
-      title: 'Vamos estruturar a descoberta da sua indústria',
-      text: 'Receba um plano de Conteúdo e SEO alinhado aos objetivos de eficiência.',
-      button: 'Agendar Diagnóstico',
+      title: 'Vamos estruturar a descoberta da sua indÃºstria',
+      text: 'Receba um plano de ConteÃºdo e SEO alinhado aos objetivos de eficiÃªncia.',
+      button: 'Agendar DiagnÃ³stico',
     },
   },
   en: {
@@ -209,7 +209,7 @@ const content = {
     deliverables: {
       title: 'Industry deliverables',
       items: [
-        'Content map by industrial área',
+        'Content map by industrial Ã¡rea',
         'Solution pillars with technical proof',
         'Schema and technical SEO per page',
         'Expansion roadmap by sector and plant',
@@ -293,7 +293,7 @@ const IndustriesPage: React.FC<IndustriesPageProps> = ({ locale }) => {
         '@type': 'Service',
         serviceType:
           locale === 'pt-br'
-            ? 'transformação digital e indústria 4.0'
+            ? 'transformaÃ§Ã£o digital e indÃºstria 4.0'
             : 'Digital transformation and Industry 4.0',
         provider: {
           '@type': 'Organization',
@@ -308,13 +308,13 @@ const IndustriesPage: React.FC<IndustriesPageProps> = ({ locale }) => {
           {
             '@type': 'ListItem',
             position: 1,
-            name: locale === 'pt-br' ? 'Início' : 'Home',
+            name: locale === 'pt-br' ? 'InÃ­cio' : 'Home',
             item: canonicalFromPath(`/${locale}`),
           },
           {
             '@type': 'ListItem',
             position: 2,
-            name: 'Indústrias',
+            name: 'IndÃºstrias',
             item: canonical,
           },
         ],
@@ -544,5 +544,6 @@ const IndustriesPage: React.FC<IndustriesPageProps> = ({ locale }) => {
 };
 
 export default IndustriesPage;
+
 
 
