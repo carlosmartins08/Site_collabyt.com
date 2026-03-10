@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Rocket, Factory, ShoppingBag, Lightbulb, CheckCircle, ArrowRight, Activity } from 'lucide-react';
+import { Rocket, Factory, ShoppingBag, Lightbulb, CheckCircle, ArrowRight, Activity, Cpu, Hospital } from 'lucide-react';
 import { SolutionTab } from '../types';
 import { motion, AnimatePresence, useInView, useSpring, useTransform } from 'framer-motion';
 import { Reveal } from './Reveal';
@@ -11,6 +11,8 @@ interface SolutionsProps {
   startupsHref?: string;
   industriesHref?: string;
   retailHref?: string;
+  techHref?: string;
+  healthcareHref?: string;
 }
 
 // Reusing Counter Logic locally for Solutions to ensure it works smoothly inside dynamic tabs
@@ -53,12 +55,14 @@ const Solutions: React.FC<SolutionsProps> = ({
   startupsHref,
   industriesHref,
   retailHref,
+  techHref,
+  healthcareHref,
 }) => {
   const { t, language } = useLanguage();
   const startupsCtaLabel =
     language === 'pt' ? 'Ver página completa para startups' : 'View the full startups page';
   const industriesCtaLabel =
-    language === 'pt' ? 'Ver página completa para industrias' : 'View the full industries page';
+    language === 'pt' ? 'Ver página completa para indústrias' : 'View the full industries page';
   const retailCtaLabel =
     language === 'pt' ? 'Ver página completa para varejo' : 'View the full retail page';
   
@@ -72,7 +76,7 @@ const Solutions: React.FC<SolutionsProps> = ({
       benefits: t('solutions.items.startups.benefits'),
       caseStudy: {
         title: t('solutions.items.startups.caseTitle'),
-        stat: '90 ' + (t('nav.diagnosis').includes('DiagnÃ³stico') ? 'dias' : 'days'), // Simple heuristic or use explicit translation
+        stat: `90 ${language === 'pt' ? 'dias' : 'days'}`,
         description: t('solutions.items.startups.caseDesc'),
       }
     },
@@ -142,7 +146,7 @@ const Solutions: React.FC<SolutionsProps> = ({
         </div>
 
         {/* Tabs Navigation with Fluid Background */}
-        <div className="flex flex-wrap justify-center gap-2 mb-16" role="tablist" aria-label="Tipos de soluÃ§Ãµes">
+        <div className="flex flex-wrap justify-center gap-2 mb-16" role="tablist" aria-label="Tipos de soluções">
           <div className="bg-brandGray p-1.5 rounded-full inline-flex flex-wrap justify-center border border-white/5">
             {solutions.map((tab) => (
               <button
@@ -286,10 +290,153 @@ const Solutions: React.FC<SolutionsProps> = ({
             </motion.div>
           </AnimatePresence>
         </div>
+
+        <div className="mt-20 border-t border-white/5 pt-12">
+          <Reveal width="100%">
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+              <div>
+                <p className="text-brandOrange text-xs uppercase tracking-[0.3em] font-semibold">
+                  {language === 'pt' ? 'Páginas estratégicas' : 'Strategic pages'}
+                </p>
+                <h3 className="mt-3 text-2xl md:text-3xl font-bold text-white">
+                  {language === 'pt'
+                    ? 'Acesse os guias por setor e intenção'
+                    : 'Access sector-focused guides by intent'}
+                </h3>
+                <p className="mt-3 text-slate-400 max-w-2xl">
+                  {language === 'pt'
+                    ? 'Cada página aprofunda dores, personas e soluções específicas. Assim, a navegação fica clara e a mensuração fica precisa.'
+                    : 'Each page dives into pains, personas, and tailored solutions. Navigation becomes clearer and measurement more precise.'}
+                </p>
+              </div>
+            </div>
+          </Reveal>
+
+          <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {startupsHref ? (
+              <Link
+                to={startupsHref}
+                data-analytics="home:strategic:startups"
+                data-analytics-label="startups"
+                className="group flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-brandGray/60 px-5 py-4 transition-all hover:border-brandOrange/40 hover:-translate-y-0.5"
+              >
+                <div className="flex items-center gap-3">
+                  <span className="w-10 h-10 rounded-xl bg-brandOrange/10 text-brandOrange flex items-center justify-center">
+                    <Rocket className="w-5 h-5" />
+                  </span>
+                  <div>
+                    <p className="text-white font-semibold">Startups</p>
+                    <span className="text-xs text-slate-400">
+                      {language === 'pt' ? 'MVP, tração e validação' : 'MVP, traction, and validation'}
+                    </span>
+                  </div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-brandOrange group-hover:translate-x-1 transition-transform" />
+              </Link>
+            ) : null}
+
+            {industriesHref ? (
+              <Link
+                to={industriesHref}
+                data-analytics="home:strategic:industries"
+                data-analytics-label="industries"
+                className="group flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-brandGray/60 px-5 py-4 transition-all hover:border-brandOrange/40 hover:-translate-y-0.5"
+              >
+                <div className="flex items-center gap-3">
+                  <span className="w-10 h-10 rounded-xl bg-brandOrange/10 text-brandOrange flex items-center justify-center">
+                    <Factory className="w-5 h-5" />
+                  </span>
+                  <div>
+                    <p className="text-white font-semibold">
+                      {language === 'pt' ? 'Indústrias' : 'Industries'}
+                    </p>
+                    <span className="text-xs text-slate-400">
+                      {language === 'pt'
+                        ? 'Eficiência e transformação digital'
+                        : 'Efficiency and digital transformation'}
+                    </span>
+                  </div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-brandOrange group-hover:translate-x-1 transition-transform" />
+              </Link>
+            ) : null}
+
+            {retailHref ? (
+              <Link
+                to={retailHref}
+                data-analytics="home:strategic:retail"
+                data-analytics-label="retail"
+                className="group flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-brandGray/60 px-5 py-4 transition-all hover:border-brandOrange/40 hover:-translate-y-0.5"
+              >
+                <div className="flex items-center gap-3">
+                  <span className="w-10 h-10 rounded-xl bg-brandOrange/10 text-brandOrange flex items-center justify-center">
+                    <ShoppingBag className="w-5 h-5" />
+                  </span>
+                  <div>
+                    <p className="text-white font-semibold">
+                      {language === 'pt' ? 'Varejo' : 'Retail'}
+                    </p>
+                    <span className="text-xs text-slate-400">
+                      {language === 'pt' ? 'Conversão e omnichannel' : 'Conversion and omnichannel'}
+                    </span>
+                  </div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-brandOrange group-hover:translate-x-1 transition-transform" />
+              </Link>
+            ) : null}
+
+            {healthcareHref ? (
+              <Link
+                to={healthcareHref}
+                data-analytics="home:strategic:healthcare"
+                data-analytics-label="healthcare"
+                className="group flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-brandGray/60 px-5 py-4 transition-all hover:border-brandOrange/40 hover:-translate-y-0.5"
+              >
+                <div className="flex items-center gap-3">
+                  <span className="w-10 h-10 rounded-xl bg-brandOrange/10 text-brandOrange flex items-center justify-center">
+                    <Hospital className="w-5 h-5" />
+                  </span>
+                  <div>
+                    <p className="text-white font-semibold">
+                      {language === 'pt' ? 'Hospitais e Consultórios' : 'Healthcare'}
+                    </p>
+                    <span className="text-xs text-slate-400">
+                      {language === 'pt' ? 'Confiança e agendamentos' : 'Trust and appointments'}
+                    </span>
+                  </div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-brandOrange group-hover:translate-x-1 transition-transform" />
+              </Link>
+            ) : null}
+
+            {techHref ? (
+              <Link
+                to={techHref}
+                data-analytics="home:strategic:tech"
+                data-analytics-label="tech"
+                className="group flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-brandGray/60 px-5 py-4 transition-all hover:border-brandOrange/40 hover:-translate-y-0.5"
+              >
+                <div className="flex items-center gap-3">
+                  <span className="w-10 h-10 rounded-xl bg-brandOrange/10 text-brandOrange flex items-center justify-center">
+                    <Cpu className="w-5 h-5" />
+                  </span>
+                  <div>
+                    <p className="text-white font-semibold">Tech</p>
+                    <span className="text-xs text-slate-400">
+                      {language === 'pt' ? 'Arquitetura e IA aplicada' : 'Architecture and applied AI'}
+                    </span>
+                  </div>
+                </div>
+                <ArrowRight className="w-4 h-4 text-brandOrange group-hover:translate-x-1 transition-transform" />
+              </Link>
+            ) : null}
+          </div>
+        </div>
       </div>
     </section>
   );
 };
 
 export default Solutions;
+
 
