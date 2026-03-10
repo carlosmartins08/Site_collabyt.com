@@ -1,26 +1,26 @@
-ï»¿# MANUTENï¿½?ï¿½fO ï¿½?" Collaby.t Site
+# MANUTENÇÃO — Collaby.t Site
 
-Este documento orienta a manutenÃ§Ã£o e tarefas recorrentes do projeto.
+Este documento orienta a manutenção e tarefas recorrentes do projeto.
 
-## Overview rÃ¡pido
+## Overview rápido
 - Tech: React + TypeScript + Vite
-- Roteamento: `react-router-dom` (client-side); prerender gera snapshots estÃ¡ticos para SEO.
+- Roteamento: `react-router-dom` (client-side); prerender gera snapshots estáticos para SEO.
 - i18n: simples arquivo `translations.ts` consumido por `LanguageContext`.
 - SEO/SSG: `scripts/generate-sitemap.cjs` e `scripts/prerender.cjs` (Playwright).
 
 ## Primeiros passos (para mantenedor)
-1. Clonar repositÃ³rio
+1. Clonar repositório
 ```bash
 git clone <repo>
 cd <repo>
 npm install
 ```
-2. Ativar hooks (se `prepare` rodar automaticamente apÃ³s `npm install` vocÃª nÃ£o precisa fazer nada):
+2. Ativar hooks (se `prepare` rodar automaticamente após `npm install` você não precisa fazer nada):
 ```bash
 npm run prepare
 ```
 
-## Comandos Ãºteis
+## Comandos úteis
 - Desenvolvimento:
 ```bash
 npm run dev
@@ -41,7 +41,7 @@ npm run typecheck
 ```bash
 npm run generate:sitemap
 ```
-- Prerender manual (apÃ³s build):
+- Prerender manual (após build):
 ```bash
 npm run prerender
 ```
@@ -56,8 +56,9 @@ Este arquivo foi movido para a pasta `docs/`.
 
 Veja: [docs/MAINTAINING.md](docs/MAINTAINING.md)
 
-Manteremos um Ãºnico conjunto de documentaÃ§Ã£o em `docs/` para evitar duplicaÃ§Ã£o.
+Manteremos um único conjunto de documentação em `docs/` para evitar duplicação.
 
 ````
-- `.husky/` ï¿½?" hooks; `pre-commit` e `pre-push` jÃ¡ configurados
+- `.husky/` — hooks; `pre-commit` e `pre-push` já configurados
+
 
